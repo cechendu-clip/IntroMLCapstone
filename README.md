@@ -52,6 +52,9 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
 - `train.csv`  
    Training split of the Kaggle House Prices dataset used to fit and validate the models.
 
+-  * `data_description.txt`  
+   Original Kaggle file describing each feature in the housing dataset (useful for understanding the meaning of columns).
+
 - `test.csv`  
    Test portion of the Kaggle dataset. It is included for completeness but is **not used** in this project’s internal training and evaluation pipeline, since it does not contain the target `SalePrice` column.
 
