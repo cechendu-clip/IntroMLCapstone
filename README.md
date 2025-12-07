@@ -53,10 +53,10 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
   Training split of the Kaggle House Prices dataset used to fit and validate the models.
 
 - `test.csv`  
-  Test split of the dataset used for final evaluation / predictions.
+  Test portion of the Kaggle dataset. It is included for completeness but is **not used** in this project’s internal training and evaluation pipeline, since it does not contain the target `SalePrice` column.
 
 - `sample_submission.csv`  
-  Template file following the Kaggle competition format (ID + predicted `SalePrice`), useful for generating Kaggle-style submissions.
+  Template file from the Kaggle competition (ID + predicted `SalePrice`). It can be used to format predictions for a Kaggle submission, but it is **not required** for the main analysis in this project.
 
 ---
 
