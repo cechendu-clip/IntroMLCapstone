@@ -55,9 +55,6 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
 - `test.csv`  
    Test portion of the Kaggle dataset. It is included for completeness but is **not used** in this project’s internal training and evaluation pipeline, since it does not contain the target `SalePrice` column.
 
-- `sample_submission.csv`  
-   Template file from the Kaggle competition (ID + predicted `SalePrice`). It can be used to format predictions for a Kaggle submission, but it is **not required** for the main analysis in this project.
-
 - `requirements.txt`
    Specifies the exact Python package versions needed to run all notebooks in this project.
 
