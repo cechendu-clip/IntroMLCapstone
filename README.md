@@ -64,6 +64,18 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
 
 ---
 
+## Results Summary
+
+The table below summarizes the performance of all five models on the validation set, using the inverse-transformed target (original dollar scale) for error metrics and log-space for \(R^2\).
+
+| Model                            | MSE (original \$)   | MAE (original \$) | RMSE (original \$) | R² (log-space) |
+|----------------------------------|---------------------|-------------------|--------------------|----------------|
+| Linear Regression                | 517,314,998.72      | 14,894.04         | 22,744.56          | 0.9122         |
+| Ridge Regression                 | 689,398,773.18      | 16,852.06         | 26,256.40          | 0.8967         |
+| MLP Regressor (Neural Network)   | 940,125,392.63      | 20,673.76         | 30,661.46          | 0.8564         |
+| Random Forest (Literature Model) | 891,594,389.41      | 17,563.30         | 29,859.58          | 0.8842         |
+| Gradient Boosting (Literature)   | 807,882,013.57      | 16,000.38         | 28,423.27          | 0.9040         |
+
 ## How to Run
 
 1. Clone this repository:
