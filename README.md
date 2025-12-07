@@ -58,6 +58,9 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
 - `sample_submission.csv`  
   Template file from the Kaggle competition (ID + predicted `SalePrice`). It can be used to format predictions for a Kaggle submission, but it is **not required** for the main analysis in this project.
 
+- `requirements.txt`
+   Specifies the exact Python package versions needed to run all notebooks in this project.
+
 ---
 
 ## How to Run
