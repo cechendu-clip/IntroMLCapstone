@@ -73,6 +73,9 @@ The project compares three models learned in class (Linear Regression, Ridge Reg
    ```bash
    pip install -r requirements.txt
 3. Open the notebooks in Jupyter or VS Code and run them cell-by-cell:
+   ```bash
+   jupyter notebook
+
    
 
   
