@@ -74,7 +74,7 @@ The table below summarizes the performance of all five models on the validation 
 | Ridge Regression                 | 689,398,773.18      | 16,852.06         | 26,256.40          | 0.8967         |
 | MLP Regressor (Neural Network)   | 940,125,392.63      | 20,673.76         | 30,661.46          | 0.8564         |
 | Random Forest (Literature Model) | 891,594,389.41      | 17,563.30         | 29,859.58          | 0.8842         |
-| Gradient Boosting (Literature)   | 807,882,013.57      | 16,000.38         | 28,423.27          | 0.9040         |
+| Gradient Boosting (Literature Model)   | 807,882,013.57      | 16,000.38         | 28,423.27          | 0.9040         |
 
 ## How to Run
 
